@@ -5,16 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from "@angular/common/http";
+import { ProductsMasterDetailsComponent } from './components/products-master-details/products-master-details.component';
+import { MatGridListModule } from '@angular/material/grid-list'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProductsMasterDetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
