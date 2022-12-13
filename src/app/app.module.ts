@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from "@angular/common/http";
 import { ProductsMasterDetailsComponent } from './components/products-master-details/products-master-details.component';
 import { MatGridListModule } from '@angular/material/grid-list'
+import { MatListModule } from '@angular/material/list'
+import { MatButtonModule } from '@angular/material/button'
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { MatGridListModule } from '@angular/material/grid-list'
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    MatGridListModule
+    MatGridListModule,
+    MatListModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
