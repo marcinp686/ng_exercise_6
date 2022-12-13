@@ -8,12 +8,14 @@ import { HttpClientModule } from "@angular/common/http";
 import { ProductsMasterDetailsComponent } from './components/products-master-details/products-master-details.component';
 import { MatGridListModule } from '@angular/material/grid-list'
 import { MatListModule } from '@angular/material/list'
-import { MatButtonModule } from '@angular/material/button'
+import { MatButtonModule } from '@angular/material/button';
+import { EmployeesMasterDetailsComponent } from './components/employees-master-details/employees-master-details.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductsMasterDetailsComponent
+    ProductsMasterDetailsComponent,
+    EmployeesMasterDetailsComponent
   ],
   imports: [
     BrowserModule,
