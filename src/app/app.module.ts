@@ -9,13 +9,15 @@ import { ProductsMasterDetailsComponent } from './components/products-master-det
 import { MatGridListModule } from '@angular/material/grid-list'
 import { MatListModule } from '@angular/material/list'
 import { MatButtonModule } from '@angular/material/button';
-import { EmployeesMasterDetailsComponent } from './components/employees-master-details/employees-master-details.component'
+import { EmployeesMasterDetailsComponent } from './components/employees-master-details/employees-master-details.component';
+import { CryptoMasterDetailsComponent } from './components/crypto-master-details/crypto-master-details.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsMasterDetailsComponent,
-    EmployeesMasterDetailsComponent
+    EmployeesMasterDetailsComponent,
+    CryptoMasterDetailsComponent
   ],
   imports: [
     BrowserModule,
